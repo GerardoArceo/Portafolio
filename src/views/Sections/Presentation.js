@@ -41,7 +41,7 @@ export default function Presentation() {
                                         href={CV_PDF}
                                         target="_blank"
                                         rel="noreferrer"
-                                        download="Nadia's_CV"
+                                        download="Nadia-Lopez_resume"
                                     >
                                         Download CV
                                     </Button>
