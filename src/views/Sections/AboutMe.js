@@ -128,7 +128,7 @@ export default function AboutMe() {
                             <img
                               alt="..."
                               className="img img-raised"
-                              src={require("assets/img/escom.jpeg")}
+                              src={require("assets/img/escom.png")}
                             />
                           </div>
                           <CardBody>
