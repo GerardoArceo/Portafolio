@@ -7,7 +7,10 @@ import {
 } from "reactstrap";
 import MyNavbar from "components/Navbars/MyNavbar";
 
-
+window.onload = function () {
+    var element = document.getElementById('video');
+    element.muted = "muted";
+}
 
 export default function Presentation() {
 
@@ -22,9 +25,8 @@ export default function Presentation() {
                             <video
                                 autoPlay="autoplay"
                                 loop="loop"                                
-                                playsInline="playsinline"
-                                controls="controls"
-                                muted="muted"
+                                playsInline="playsinline"                            
+                                id="video"
                             >
                                 <source
                                     src={require("assets/video/video.mp4")}
