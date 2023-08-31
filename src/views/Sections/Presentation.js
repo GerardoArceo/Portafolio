@@ -21,9 +21,10 @@ export default function Presentation() {
                             <div className="overlay"/>
                             <video
                                 autoPlay="autoplay"
-                                loop="loop"
-                                muted="muted"
+                                loop="loop"                                
                                 playsInline="playsinline"
+                                controls
+                                muted
                             >
                                 <source
                                     src={require("assets/video/video.mp4")}
