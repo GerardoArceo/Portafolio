@@ -26,7 +26,6 @@ import "assets/demo/demo.css";
 import "assets/demo/react-demo.css";
 
 import Sections from "views/Sections.js";
-import Error404 from "views/Sections/Error404.js";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
