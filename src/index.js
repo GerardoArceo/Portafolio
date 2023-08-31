@@ -35,9 +35,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Sections />} />
-      <Route path="/" element={<Navigate to="/sections" replace />} />
-      
-      <Route path="/*" element={<Error404 />} />
+      <Route path="/*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
 );
