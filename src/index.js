@@ -26,6 +26,7 @@ import "assets/demo/demo.css";
 import "assets/demo/react-demo.css";
 
 import Sections from "views/Sections.js";
+import Error404 from "views/Sections/Error404.js";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -33,8 +34,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/sections" element={<Sections />} />
+      <Route path="/" element={<Sections />} />
       <Route path="/" element={<Navigate to="/sections" replace />} />
+      
+      <Route path="/*" element={<Error404 />} />
     </Routes>
   </BrowserRouter>
 );

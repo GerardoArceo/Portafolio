@@ -57,7 +57,7 @@ export default function ContactUs() {
                         <p>
                           <a
                             className="description"
-                            href="https://w.app/DyRhQn"
+                            href="https://api.whatsapp.com/send?phone=5215549359049"
                             style={{ fontStyle: 'italic' }}
                           >
                             (+52) 55 49 35 90 49 <br />

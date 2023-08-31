@@ -1,5 +1,5 @@
 import React from "react";
-import CV_PDF from '../../assets/documents/Nadias_resume.pdf';
+import CV_PDF from '../../assets/documents/Nadia_resume.pdf';
 
 import {
     Button,
