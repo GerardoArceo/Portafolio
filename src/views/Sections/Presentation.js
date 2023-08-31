@@ -23,8 +23,8 @@ export default function Presentation() {
                                 autoPlay="autoplay"
                                 loop="loop"                                
                                 playsInline="playsinline"
-                                controls
-                                muted
+                                controls="controls"
+                                muted="muted"
                             >
                                 <source
                                     src={require("assets/video/video.mp4")}
