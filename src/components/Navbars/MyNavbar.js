@@ -1,20 +1,16 @@
 import React from "react";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { Link } from "react-router-dom";
 
 import {
-    Button,
     UncontrolledCollapse,
     NavbarBrand,
     Navbar,
     NavItem,
-    NavLink,
     Nav,
     Container,
     Row,
-    Col,
-    CustomInput
+    Col
 } from "reactstrap";
 
 export default function MyNavbar() {

@@ -1,32 +1,13 @@
 import React from "react";
 
-import classnames from "classnames";
-
 
 import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardTitle,
-  Label,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
 } from "reactstrap";
 
 export default function ContactUs() {
-  const [emailContact1Focus, setEmailContact1Focus] = React.useState(false);
-  const [firstNameContact1Focus, setFirstNameContact1Focus] =
-    React.useState(false);
-  const [lastNameContact1Focus, setLastNameContact1Focus] =
-    React.useState(false);
 
   return (
     <>
@@ -107,102 +88,6 @@ export default function ContactUs() {
                   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </Row>
               </Col>
-              {/* <Col className="ml-auto mr-auto" md="5">
-                <Card className="card-contact card-raised">
-                  <Form id="contact-form-2" method="post" role="form">
-                    <CardHeader className="text-center">
-                      <CardTitle tag="h4">Get in touch!</CardTitle>
-                    </CardHeader>
-                    <CardBody>
-                      <Row>
-                        <Col md="6">
-                          <label>First name</label>
-                          <InputGroup
-                            className={classnames({
-                              "input-group-focus": firstNameContact1Focus,
-                            })}
-                          >
-                            <InputGroupAddon addonType="prepend">
-                              <InputGroupText>
-                                <i className="tim-icons icon-single-02" />
-                              </InputGroupText>
-                            </InputGroupAddon>
-                            <Input
-                              aria-label="First Name..."
-                              placeholder="First Name..."
-                              type="text"
-                              onFocus={(e) => setFirstNameContact1Focus(true)}
-                              onBlur={(e) => setFirstNameContact1Focus(false)}
-                            />
-                          </InputGroup>
-                        </Col>
-                        <Col className="pl-2" md="6">
-                          <FormGroup>
-                            <label>Last name</label>
-                            <InputGroup
-                              className={classnames({
-                                "input-group-focus": lastNameContact1Focus,
-                              })}
-                            >
-                              <InputGroupAddon addonType="prepend">
-                                <InputGroupText>
-                                  <i className="tim-icons icon-caps-small" />
-                                </InputGroupText>
-                              </InputGroupAddon>
-                              <Input
-                                aria-label="Last Name..."
-                                placeholder="Last Name..."
-                                type="text"
-                                onFocus={(e) => setLastNameContact1Focus(true)}
-                                onBlur={(e) => setLastNameContact1Focus(false)}
-                              />
-                            </InputGroup>
-                          </FormGroup>
-                        </Col>
-                      </Row>
-                      <FormGroup>
-                        <label>Email address</label>
-                        <InputGroup
-                          className={classnames({
-                            "input-group-focus": emailContact1Focus,
-                          })}
-                        >
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="tim-icons icon-email-85" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email Here..."
-                            type="text"
-                            onFocus={(e) => setEmailContact1Focus(true)}
-                            onBlur={(e) => setEmailContact1Focus(false)}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup>
-                        <label>Your message</label>
-                        <Input
-                          id="message-2"
-                          name="message"
-                          rows="6"
-                          type="textarea"
-                        />
-                      </FormGroup>
-                      <Row>
-                        <Col md="6">
-                          <Button
-                            className="btn-round"
-                            color="primary"
-                          >
-                            Send Message
-                          </Button>
-                        </Col>
-                      </Row>
-                    </CardBody>
-                  </Form>
-                </Card>
-              </Col> */}
             </Row>
           </Container>
         </div>

@@ -2,9 +2,6 @@ import React from "react";
 
 // reactstrap components
 import {
-  Card,
-  CardBody,
-  CardFooter,
   NavItem,
   NavLink,
   Nav,

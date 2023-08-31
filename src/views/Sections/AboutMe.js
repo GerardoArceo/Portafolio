@@ -25,8 +25,6 @@ export default function AboutMe() {
 
   const english = 75;
 
-  const wrapper = React.useRef(null);
-
   const toggleTabs = (e, stateName, index) => {
     e.preventDefault();
     switch (stateName) {

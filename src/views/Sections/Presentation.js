@@ -1,18 +1,9 @@
 import React from "react";
-import CV_PDF from '../../assets/documents/Nadia-CV.pdf';
+import CV_PDF from '../../assets/documents/Nadias_resume.pdf';
 
 import {
     Button,
-    UncontrolledCollapse,
-    NavbarBrand,
-    Navbar,
-    NavItem,
-    NavLink,
-    Nav,
     Container,
-    Row,
-    Col,
-    CustomInput
 } from "reactstrap";
 import MyNavbar from "components/Navbars/MyNavbar";
 
@@ -35,7 +26,7 @@ export default function Presentation() {
                                 playsInline="playsinline"
                             >
                                 <source
-                                    src={require("assets/video/Mt_Baker.mp4")}
+                                    src={require("assets/video/video.mp4")}
                                     type="video/mp4"
                                 />
                             </video>

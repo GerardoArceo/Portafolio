@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Badge, Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 export default function Features() {
   return (
