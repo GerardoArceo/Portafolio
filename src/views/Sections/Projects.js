@@ -165,7 +165,7 @@ export default function Projects() {
                     <Row>
                       <Col md="7">
                         <h3 className="mb-2 text-success" style={{ textTransform: 'uppercase', fontWeight: 'bold', textDecoration: 'underline' }}>
-                          Front-end Developer
+                          Full-Stack Developer
                         </h3>
                         <h6 className="mb-5">
                           January 2021 - June 2021
