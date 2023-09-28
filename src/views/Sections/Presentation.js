@@ -33,7 +33,7 @@ export default function Presentation() {
                                 <div className="video-text">
                                     <br /><br /><br /><br /><br /><br />
                                     <h1 className="title">Nadia López</h1>
-                                    <h2 className="description">Front-end Developer</h2>
+                                    <h2 className="description">Full-Stack Developer</h2>
                                     <br />
                                     <Button
                                         className="btn-simple btn-neutral"
