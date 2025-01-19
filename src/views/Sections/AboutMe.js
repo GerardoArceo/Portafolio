@@ -50,7 +50,7 @@ export default function AboutMe() {
             <Col md="6">
               <h1 className="title" style={{ textDecoration: 'underline' }}>About Me</h1>
               <h5>
-                <p className="text-primary">Hi! my name is Nadia and I'm a Front-end developer ...</p>
+                <p className="text-primary">Hi! my name is Nadia and I'm a Quality Assurance Engineer ...</p>
               </h5>
               <Nav className="nav-pills-primary mt-5" pills role="tablist">
                 <NavItem>
@@ -90,9 +90,9 @@ export default function AboutMe() {
               <TabContent className="tab-space" activeTab={"hTabs" + hTabs}>
                 <TabPane tabId="hTabs1">
                   <br />
-                  I consider myself a hardworking, motivated, and
-                  responsible person looking for continuous learning
-                  growth in technology. <br />
+                  I am a dedicated and responsible QA engineer with
+                  3+ years of experience and a passion for growth and
+                  continuous learning in the technology sector.  <br />
                   <br />
                   I believe in maintaining a positive and collaborative
                   work ethic. I am able to work in a team environment,
