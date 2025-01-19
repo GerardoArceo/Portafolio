@@ -28,7 +28,7 @@ export default function MyNavbar() {
                             <img
                                 alt="..."
                                 className="avatar img-raised"
-                                src={require("assets/img/fotoNadia.jpeg")}
+                                src={require("assets/img/fotoNadia.jpg")}
                                 onClick={() => {
                                     window.scrollTo(0, 0)
                                 }}
